@@ -18,12 +18,12 @@
     "test": "bmocha --reporter spec test/*-test.js"
   },
   "dependencies": {
-    "binet": "git+https://github.com/raptoracle/binet.git#semver:~0.3.9",
-    "brq": "git+https://github.com/raptoracle/brq.git#semver:~0.2.1",
-    "bsert": "git+https://github.com/raptoracle/bsert.git#semver:~0.0.13"
+    "binet": "git+https://github.com/raptoracle/binet.git",
+    "brq": "git+https://github.com/raptoracle/brq.git",
+    "bsert": "git+https://github.com/raptoracle/bsert.git"
   },
   "devDependencies": {
-    "bmocha": "git+https://github.com/raptoracle/bmocha.git#semver:=2.2.0"
+    "bmocha": "git+https://github.com/raptoracle/bmocha.git"
   },
   "engines": {
     "node": ">=8.0.0"
